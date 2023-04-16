@@ -28,7 +28,8 @@ export function checkGuess(guess, answer) {
       guessChars[i] = SOLVED_CHAR;
     }
   }
-
+  // console.log("guessChars 2", guessChars)
+  // console.log("answerChars 2", answerChars)
   // Step 2: look for misplaced letters. If it's not misplaced,
   // it must be incorrect.
   for (let i = 0; i < guessChars.length; i++) {
@@ -50,6 +51,6 @@ export function checkGuess(guess, answer) {
       status,
     };
   }
-
+  // console.log("result", result)
   return result;
 }

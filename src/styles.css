@@ -230,3 +230,13 @@ h1 {
     transform: translateY(0%);
   }
 }
+
+
+.restart {
+  background-color: white;
+  color: palevioletred;
+  margin: 5px;
+  margin-top: 20px;
+  padding: 10px;
+  font-weight: 600;
+}
